@@ -1,8 +1,8 @@
-#Linked List Implementation in Java
+# Linked List Implementation in Java
 
 This project demonstrates the implementation of a simple singly linked list in Java, with additional functionalities such as removing duplicates and reversing the list.
 
-##Features
+## Features
 
 - Add Elements: Append elements to the end of the linked list.
 
@@ -12,9 +12,9 @@ This project demonstrates the implementation of a simple singly linked list in J
 
 - Reverse List: Reverse the order of elements in the linked list.
 
-##Code Structure
+## Code Structure
 
-###Class: List
+### Class: List
 
 - Inner Class: Node
 
@@ -36,7 +36,7 @@ Methods:
 
 - reverseList(): Reverses the linked list.
 
-###Main Method
+### Main Method
 
 The main method demonstrates the usage of the linked list:
 
