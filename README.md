@@ -130,3 +130,23 @@ Example:
 - Input: Array of words and a key to search.
 
 - Output: Keys not found and the total runtime.
+
+## Insertion Sort Program in Java
+
+This program implements the Insertion Sort algorithm to sort an array of integers in ascending order.
+
+How It Works:
+
+- The algorithm iterates through the array starting from the second element.
+
+- For each element, it compares the current element with the elements in the sorted part of the array (to its left).
+
+- If the current element is smaller, it swaps the elements until the current element is in its correct position in the sorted part.
+
+- This process continues until the entire array is sorted.
+  
+Example:
+
+- Input: int[] a = { 1, 4, 5, 6, 2, 2, 4, 6, 2, 4 };
+
+- Output: 1 2 2 2 4 4 4 5 6 6
