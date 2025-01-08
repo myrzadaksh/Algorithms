@@ -13,3 +13,27 @@ This repository contains implementations of various algorithms and data structur
 5. [TestSS.java](#testssjava)
 
 ---
+
+## BinarySearch.java
+
+This program implements a binary search algorithm to find the index of a specific key in a sorted array of strings.
+
+How it works:
+
+- It splits the array into two halves and compares the key with the middle element.
+  
+- If the key matches the middle element, it returns the index.
+  
+- If the key is smaller, it recursively searches the left half.
+
+- If the key is larger, it recursively searches the right half.
+
+- If the key is not found, it returns -1.
+  
+Example:
+
+- Input: "Orwell"
+  
+- Input: "Orwell"
+  
+- Output: "Orwell is at position: 1"
