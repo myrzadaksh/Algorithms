@@ -92,4 +92,22 @@ Example:
 
 8 -> 5 -> 4 -> 3 -> 2 -> 1 ->
 
-  
+## Mandelbrot.java
+
+This program visualizes the Mandelbrot set, a famous fractal, using complex numbers.
+
+How it works:
+
+- Takes input parameters for the center (xc, yc), size of the view, and resolution (N).
+
+- Iterates to determine if a point belongs to the Mandelbrot set.
+
+- Points inside the set are colored black, and points outside are colored white.
+
+- Displays the result as a graphical image.
+
+Example:
+
+- Input: -0.5 0 2 32
+
+- Output: Renders an image of the Mandelbrot set.
