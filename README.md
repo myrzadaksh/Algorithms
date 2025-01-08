@@ -12,6 +12,7 @@ This repository contains implementations of various algorithms and data structur
 4. [Mandelbrot.java](#mandelbrotjava)
 5. [TestSS.java](#testssjava)
 6. [InsertionSort.java](#insertion.java)
+7. [MergeSort.java](#mergesort.java)
 
 ---
 
@@ -150,3 +151,25 @@ Example:
 - Input: int[] a = { 1, 4, 5, 6, 2, 2, 4, 6, 2, 4 };
 
 - Output: 1 2 2 2 4 4 4 5 6 6
+
+## Merge Sort Program in Java
+
+This program implements the Merge Sort algorithm to sort an array of integers in descending order.
+
+How It Works:
+
+Divide: The array is recursively divided into two halves until each subarray contains a single element.
+  
+Merge: The subarrays are merged in a way that ensures the resulting array is sorted.
+
+- Two temporary arrays (lArray and rArray) are used to store the left and right halves of the array.
+
+- The elements from the temporary arrays are compared and merged back into the original array in descending order.
+
+The process continues until the entire array is sorted.
+
+Example:
+
+Input: int[] a = { 1, 2, 4, 6, 8, 4, 2, 9 };
+
+Output: 9 8 6 4 4 2 2 1
