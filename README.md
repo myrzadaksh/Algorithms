@@ -111,3 +111,21 @@ Example:
 - Input: -0.5 0 2 32
 
 - Output: Renders an image of the Mandelbrot set.
+
+## TestSS.java
+
+This program demonstrates a linear search algorithm and measures its performance.
+
+How it works:
+
+- Reads a list of words from the input.
+
+- Randomly selects words and searches for them in the array using a linear search.
+
+- Reports the time taken for the entire process.
+
+Example:
+
+- Input: Array of words and a key to search.
+
+- Output: Keys not found and the total runtime.
