@@ -58,4 +58,38 @@ Example:
   
 - Output: 1 2 3 5 8 13 21 34 55 89 The final value is = 89
 
+## List.java
+
+This program defines a custom singly linked list with utility methods to manipulate the list.
+
+Key Features:
+
+- Add: Inserts a new value at the end of the list.
+  
+- Print: Displays the entire list in sequence.
+
+- Remove Duplicates: Removes duplicate values using a HashSet.
+
+- Reverse List: Reverses the order of the nodes in the list.
+
+How it works:
+
+- Builds a list from an array of integers.
+
+- Removes duplicates and prints the modified list.
+
+- Reverses the list and prints it again.
+
+Example:
+
+- Input: {1, 2, 3, 4, 5, 2, 3, 4, 8, 1}
+
+- Output:
+
+1 -> 2 -> 3 -> 4 -> 5 -> 2 -> 3 -> 4 -> 8 -> 1 -> 
+
+1 -> 2 -> 3 -> 4 -> 5 -> 8 -> 
+
+8 -> 5 -> 4 -> 3 -> 2 -> 1 ->
+
   
