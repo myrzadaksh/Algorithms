@@ -11,6 +11,7 @@ This repository contains implementations of various algorithms and data structur
 3. [List.java](#listjava)
 4. [Mandelbrot.java](#mandelbrotjava)
 5. [TestSS.java](#testssjava)
+6. [InsertionSort.java](#insertion.java)
 
 ---
 
